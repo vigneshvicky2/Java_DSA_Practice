@@ -28,11 +28,9 @@ class DynamicArray{
              } else if (i==size-1) {
                  System.out.print(arr[i] + "]");
              }
-             else{
+             else {
                  System.out.print(arr[i] + " ");
              }
-
-
          }
     }
     public void insert(int val,int pos){
@@ -120,7 +118,6 @@ public class DynamicArrayTest {
         boolean show_menu = true;
         String response;
         do {
-
                 System.out.println("\n~~~~~~~~~ List Menu ~~~~~~~~~");
                 System.out.println("1. Insert at End");
                 System.out.println("2. Display the List");
@@ -187,8 +184,8 @@ public class DynamicArrayTest {
                         break;
                     case 10:
                         System.out.println("Exiting the program. Goodbye!");
-                        scanner.close(); // Close the scanner
-                        System.exit(0); // Exit the program
+                        scanner.close();
+                        System.exit(0);
                     default:
                         System.out.println("Invalid choice. Please enter a number between 1 and 5.");
                 }
